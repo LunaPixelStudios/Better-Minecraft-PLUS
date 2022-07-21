@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a bug report to help us improve Better Minecraft Plus
+description: Create a bug report to help us improve the SteamPunk Modpack
 labels: [ "bug" ]
 body:
     -   type: textarea
@@ -43,7 +43,8 @@ body:
             label: Minecraft Version
             description: The version of Minecraft you were using when the bug occured
             options:
-                - "1.16"
+                - "1.18"
+                - "1.19"
         validations:
             required: true
     -   type: dropdown
@@ -77,4 +78,4 @@ body:
             required: false
     -   type: markdown
         attributes:
-            value: "Thank you for taking the time to make this bug report and to help improve Better Minecraft Plus"
+            value: "Thank you for taking the time to make this bug report and to help improve the SteamPunk Modpack"
